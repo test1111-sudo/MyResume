@@ -148,6 +148,15 @@ const learningTrack = [
   "Keeping the design side active through portfolio work and interface critique.",
 ];
 
+const languages = ["English — B2-C1", "French — B1", "Georgian — Fluent"];
+
+const workStyle = [
+  "Clear defect communication without unnecessary noise.",
+  "Strong collaboration with developers, BAs, designers, and product stakeholders.",
+  "Balanced attention to logic, UX detail, and release confidence.",
+  "A designer's eye paired with a QA mindset.",
+];
+
 const hobbies = [
   "Traveling",
   "Skiing",
@@ -265,5 +274,7 @@ renderPills("#focus-areas", focusAreas);
 renderExperience();
 renderToolGroups();
 renderLearning();
+renderPills("#languages", languages);
+document.querySelector("#work-style").innerHTML = workStyle.map((item) => `<li>${item}</li>`).join("");
 renderPills("#hobbies", hobbies);
 renderContacts();
