@@ -6,22 +6,22 @@ const quickLinks = [
     chip: "Open profile",
   },
   {
-    title: "Behance",
-    href: "https://www.behance.net/eleneramishvili#",
-    description: "Design portfolio from my graphic and UI/UX chapter.",
-    chip: "See portfolio",
-  },
-  {
-    title: "Instagram",
-    href: "https://www.instagram.com/hellnnee/",
-    description: "Photography, travel, and snapshots from outside work.",
-    chip: "View photos",
+    title: "GitHub Repo",
+    href: "https://github.com/test1111-sudo/MyResume",
+    description: "Source code for this resume website, including the Netlify-ready static build.",
+    chip: "Open repo",
   },
   {
     title: "ISTQB Certificate",
     href: "./assets/istqb-certificate.pdf",
     description: "Original certification PDF stored inside the project.",
     chip: "Open file",
+  },
+  {
+    title: "Behance",
+    href: "https://www.behance.net/eleneramishvili#",
+    description: "Design portfolio from my graphic and UI/UX chapter.",
+    chip: "See portfolio",
   },
 ];
 

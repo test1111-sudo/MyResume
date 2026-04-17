@@ -469,6 +469,10 @@ h3 {
   padding: 28px;
 }
 
+.cert-card {
+  padding-top: 28px;
+}
+
 .bubble-panel {
   border-radius: 28px 28px 28px 8px;
 }
